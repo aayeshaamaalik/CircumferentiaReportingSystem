@@ -6,7 +6,7 @@ float value;
 int tmp = A1;
 const int ledPin = 13;   //the number of the LED pin
 const int ldrPin = A0;  //the number of the LDR pin
-int v_GasSen = 0;
+int v_GasSen = 0; //Gas sensor pins
 
 void setup() 
 {
@@ -23,12 +23,13 @@ void setup()
 void loop() 
 {
   
+  //Checking temperature
   value = analogRead(tmp)* 0.00482814;
-  value =(value - 0.5) * 100.0;
-  lcd.setCursor(0, 1);
+  value =(value - 0.5) * 100.0; // Converting temperature to celcius
   
+  lcd.setCursor(0, 1); // Setting cursor for LCD
   lcd.print("Tmp:");
-  lcd.print(value);
+  lcd.print(value); //Displaying value read and converted
   delay(1000);
   lcd.clear();
   
