@@ -51,6 +51,8 @@ void loop()
     Serial.println("---------------");
 	}
   
+  
+  //Gas sensor Implementation
   v_GasSen = analogRead(A2);
   if (v_GasSen >= 250) 
   {
