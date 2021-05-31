@@ -5,4 +5,4 @@ Simulation of this project on TinkerCad: https://www.tinkercad.com/things/9c8ft5
 
 The output of TMP-36 was previously on LCD. To add communication via the internet, ESP8266 is used which relays the values form TMP-36 on ThingsSPeak website using a private API key.
 
-Simulation of this project on TinkerCad: https://www.tinkercad.com/things/iuNS8UJ34Hp-wn-circumferential-reporting-system/editel?sharecode=DOrVoEXrqMC3bfi20gSrtLhk3J2Ty4lUILD6PrX-XfY
+Simulation of this project on TinkerCad: https://www.tinkercad.com/things/iuNS8UJ34Hp-wn-circumferential-reporting-system/editel
